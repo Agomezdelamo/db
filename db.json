@@ -1,0 +1,67 @@
+{
+    "posts": [{
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [{
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "users": [{
+            "id": "0",
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "jonh",
+                "last": "doe"
+            },
+            "location": {
+                "street": "velazquez",
+                "city": "mostoles",
+                "state": "España",
+                "postcode": "28938"
+            },
+            "email": "johndoe@gmail.com",
+            "login": {
+                "username": "jdoe",
+                "password": "1234"
+            }
+        },
+        {
+            "id": "1",
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "philhip",
+                "last": "lam"
+            },
+            "location": {
+                "street": "arroyo",
+                "city": "mostoles",
+                "state": "España",
+                "postcode": "28938"
+            },
+            "email": "plam@gmail.com",
+            "login": {
+                "username": "plam",
+                "password": "1233"
+            }
+        }
+    ]
+}
